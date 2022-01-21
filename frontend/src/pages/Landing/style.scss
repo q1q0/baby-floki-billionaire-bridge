@@ -1,0 +1,135 @@
+.bridgebody{
+    display: flex;
+    justify-content: center;
+    // padding-top: 70px;
+    background-color: #FFFFFF;
+    width : 100%;
+}
+.bridge {
+    padding : 50px 50px 0px 50px;;
+    color: #ef4444;
+    background: #FFFFFF;
+    border-radius: 50px;
+    // width: 85%;
+    width : 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    font-size: 0.75em;
+    color: rgb(118, 128, 143);
+    text-align: center;
+}
+.bridge>hr{
+    border : 3px solid #E6E8EA;
+    width : 6%;
+    border-radius : 30px;
+}
+.asset.title{
+    font-size: 0.75em;
+   
+    margin-bottom: 0.333333em;
+}
+.assetlist{
+    display : flex;
+    justify-content: space-between;
+    width : "100%";
+    background: transparent;
+    border-radius: 0.571429em;
+    cursor: pointer;
+    padding : 10px 20px;
+    align-items: center;
+    margin-top: 5px; 
+    color : black; 
+    border : 1px solid black;
+}
+.assets{
+    display: flex;
+    align-items: center;
+}
+.assets>img{
+    width : 20px;
+    height : 20px;
+    padding-right:  10px;
+}
+.send{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75em;
+}
+.arrow{
+    font-size : 20px;
+    color : black;
+    height : fit-content;
+    padding :10px 13px;
+    border-radius: 10px;
+}
+
+.sendetail{
+    font-size: 0.75em;
+    color: rgb(118, 128, 143);
+    margin-top: 1.33333em;
+    line-height: 2em;
+}
+.amountinput{
+    font-size: 40px !important;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px!important;
+    border : 1px solid black;
+    color : black!important;
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+}
+.receive>span{
+    display: inline-block;
+    text-align: center;
+    border-radius: 1em;
+    padding: 0.333333em 0.666667em;
+    background: rgba(240, 185, 11, 0.1);
+    color:#ef4444;
+}
+.receive{
+    margin-top: 10px;
+    color : black;
+}
+.amount{
+    margin-top: 20px;
+    font-size: 0.75em;
+}
+.receive> img{
+    width : 15px;
+    height: 15px;
+}
+.connect{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width : 20%;
+    height : 50px;
+    border-radius: 58px;
+    background-color: #ef4444;
+    margin-top : 30px;
+    margin-bottom: 30px;
+    color : black;
+    font-size: 16px;
+    min-width: 200px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.connect:hover{
+    color : #ef4444;
+    background-color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .bridge{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+  }

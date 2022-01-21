@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+
+.navbar{
+    height : 70px;
+    width: 100%;
+    top : 0;
+    background-color: #FFFFFF;
+}
+.navbarbody{
+    padding : 0 25px;
+    height : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logobody{
+    display: flex;
+    font-size: 18px;
+    color: black;
+    align-items: center;
+    height: 100%;
+}
+.logobody>img{
+    height: 35%;
+}
+.logotitle{
+    padding-left: 8px;
+    color: #EF4444;
+    font-weight: 700;
+}
+.navconnect{
+    padding : 13px;
+    display: flex;
+    border-radius: 10px;
+    border: 70px;
+    font-size: 14px;
+    background-color: #EF4444;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .binancelink{
+        display: none;
+    }
+}

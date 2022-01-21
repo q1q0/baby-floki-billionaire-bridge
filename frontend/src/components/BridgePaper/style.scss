@@ -1,0 +1,29 @@
+.paper{
+    margin-top: 5px;
+    padding : 20px 30px;
+    height : 100px;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(147deg, #FFFFFF 0%, #EF4444 74%);
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 55%;
+    font-size: 16px!important;
+    color : black;
+}
+.arrowdown{
+    color : black;
+    padding :5px 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .paper{
+        padding : 10px
+    }
+    .main {
+        font-size: 12px!important;
+    }
+}
